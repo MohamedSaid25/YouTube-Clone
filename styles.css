@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+.nav-bar {
+  height: 45px;
+  padding: 7px 0px 0px 7px;
+  padding-top: 5px;
+  display: flex;
+  margin-top: 15px;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  height: 45px;
+}
+.logo {
+  width: 88px;
+  margin-top: -29px;
+  margin-left: 29px;
+  height: 90px;
+}
+.logo-sec {
+  display: flex;
+}
+.menu {
+  margin: -1px 0 0 15px;
+  height: 45px;
+  font-size: larger;
+}
+
+.mid {
+  display: flex;
+  margin-left: 206px;
+}
+
+.search-bar {
+  width: 500px;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 10px;
+  border: 1px #717171 solid;
+  background-color: black;
+  font-size: 17px;
+  color: white;
+}
+.micro {
+  background-color: rgba(113, 113, 113, 0.5);
+  border-radius: 50%;
+  margin-left: 13px;
+  margin-top: -2px;
+  width: 35px;
+  height: 36px;
+}
+.mic {
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.right {
+  display: flex;
+  margin-left: 271px;
+  justify-content: space-around;
+  width: 273px;
+}
+
+.notification :hover,
+.profile-pic :hover,
+.create :hover {
+  background-color: rgba(113, 113, 113, 0.5);
+  border-radius: 50%;
+  margin-left: 13px;
+  margin-top: -2px;
+  width: 40px;
+  height: 41px;
+  padding: 4px;
+}

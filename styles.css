@@ -76,8 +76,8 @@ body {
 
 .right {
   display: flex;
-  margin-left: 271px;
-  justify-content: space-around;
+  margin-left: 190px;
+  justify-content: space-evenly;
   width: 273px;
 }
 
@@ -91,4 +91,44 @@ body {
   width: 40px;
   height: 41px;
   padding: 4px;
+}
+.main {
+  margin: 10px 0 0 23px;
+}
+.nav-side-main {
+  width: 210px;
+}
+.side-bar {
+  width: 220px;
+  height: 45px;
+}
+
+.side-icons {
+  display: flex;
+}
+
+.side-icooon {
+}
+.side-hidder {
+  font-size: 15px;
+  margin-top: 3px;
+  margin-left: 31px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.info a {
+  margin: 3px 0 3px 0;
+}
+
+.spc {
+  background-color: rgba(113, 113, 113, 0.5);
+  height: 30px;
+  margin-bottom: 5px;
+}
+.side-bar :hover {
+  background-color: rgba(113, 113, 113, 0.5);
 }

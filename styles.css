@@ -94,9 +94,10 @@ body {
 }
 .main {
   margin: 10px 0 0 23px;
+  display: flex;
 }
 .nav-side-main {
-  width: 210px;
+  width: 250px;
 }
 .side-bar {
   width: 220px;
@@ -119,6 +120,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-right: 9px;
 }
 .info a {
   margin: 3px 0 3px 0;
@@ -131,4 +133,30 @@ body {
 }
 .side-bar :hover {
   background-color: rgba(113, 113, 113, 0.5);
+}
+
+.content {
+  width: 1120px;
+}
+.video {
+  margin-left: 13px;
+}
+
+.video-info {
+  display: flex;
+  margin-top: 15px;
+}
+.vid-title {
+  margin-left: 16px;
+}
+
+.do {
+  width: 300px;
+  height: 300px;
+}
+.container {
+  display: flex;
+  padding: 10px 0 0 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

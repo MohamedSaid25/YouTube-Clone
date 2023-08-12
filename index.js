@@ -7,7 +7,7 @@ const buttonSubmit = document.querySelector(".button-submit");
 // ----------------------------- Fetch Data For load First time ------------------------------------------------//
 
 window.addEventListener("load", () => {
-  fetch("/data.json")
+  fetch("https://mohamedsaid25.github.io/json/")
     .then((res) => res.json())
     .then((data) => {
       let getVideos = "";
@@ -71,7 +71,7 @@ buttonSubmit.addEventListener("click", (e) => {
 
   // Fetch and get matching result
 
-  fetch("/data.json")
+  fetch("https://mohamedsaid25.github.io/json/")
     .then((res) => res.json())
     .then((data) => {
       let getVideos = "";

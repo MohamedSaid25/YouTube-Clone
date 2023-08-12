@@ -50,16 +50,34 @@ body {
   display: flex;
   margin-left: 206px;
 }
-
+.search-bar-div {
+  display: flex;
+}
 .search-bar {
-  width: 500px;
+  width: 450px;
   height: 35px;
-  border-radius: 20px;
+  border-radius: 20px 0 0 20px;
   padding-left: 10px;
   border: 1px #717171 solid;
   background-color: black;
   font-size: 17px;
   color: white;
+}
+
+.button-submit {
+  background: none;
+  color: white;
+  background-color: rgba(113, 113, 113, 0.5);
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid rgba(113, 113, 113, 0.5);
+  border-left: none;
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+  height: 35px;
+  width: 46px;
 }
 .micro {
   background-color: rgba(113, 113, 113, 0.5);
@@ -99,10 +117,6 @@ body {
 .nav-side-main {
   width: 250px;
 }
-.side-bar {
-  width: 220px;
-  height: 45px;
-}
 
 .side-icons {
   display: flex;
@@ -125,14 +139,27 @@ body {
 .info a {
   margin: 3px 0 3px 0;
 }
+.side-bar {
+  width: 230px;
+  height: 45px;
+  margin-bottom: 5px;
+  padding: 3px 0 3px 6px;
+}
 
 .spc {
   background-color: rgba(113, 113, 113, 0.5);
   height: 30px;
   margin-bottom: 5px;
+  padding: 3px 0 3px 6px;
+  border-radius: 20px;
 }
 .side-bar :hover {
   background-color: rgba(113, 113, 113, 0.5);
+  height: 30px;
+  margin-bottom: 5px;
+  padding: 3px 0 3px 6px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .content {
